@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte0);
+}
+
+
+@font-face {
+    font-family: idroid;
+    src: url(font/idroid.otf);
+}
+
+
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive, sans-serif;
+    --fonte2: 'idroid', sans-serif;
+
+}
+
+body{
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+
+    padding: 30px 10px;
+    text-align: center;
+    color: white;
+}
+
+header > h1{
+    padding: 15px;
+    font-family: var(--fonte1);
+    font-size: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0 ,0.466);
+}
+
+header > p{
+    padding: 5px;
+}
+
+main{
+    background-color: white;
+    color: var(--cor4);
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    line-height: 2.0em;
+    
+}
+
+aside{
+    background-color: var(--cor0);
+    border-radius: 10px;
+}
+
+aside > div > h3{
+    background-color: var(--cor3);
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+ 
+}
+
+
+footer{
+    background-color: var(--cor5);
+    color: var(--cor0);
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+#video{
+    background-color: var(--cor5);
+    margin: 20px 0px;
+}
+
+#info{
+    padding: 15px;
+    
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+    
+}
+
+ul{
+    list-style: inside;
+    columns: 2;
+    padding: 10px;
+    list-style-type: '\2714\0020\0020';
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+
+    font-weight: bold;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+p > a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+p > a:hover{
+    text-decoration: underline;
+}
+
+article > h1{
+    font-family: var(--fonte2);
+}
+
+article > h2{
+    font-family: var(--fonte2);
+    background-image: linear-gradient(to right, var(--cor0), white);
+}
+
+article > p{
+    margin: 10px 0px;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+}
+
